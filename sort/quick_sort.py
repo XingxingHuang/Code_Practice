@@ -18,7 +18,7 @@ def quickSort(nums, low, high):
     if (i < high):
         quickSort(nums, i, high)
     if (j > low):
-        quickSort(nums, 0, j)
+        quickSort(nums, low, j)
     return nums
     
 if __name__ == "__main__":
@@ -28,3 +28,35 @@ if __name__ == "__main__":
     print nums
     print 'After: '
     print result
+    
+    
+# def quicksort(data, start, end):
+#     pivot = data[(start + end) / 2]   
+#     i = start
+#     j = end 
+#     while (start < end):
+#         while (data[start] < pivot):
+#             start += 1
+#         while (data[end] > pivot):
+#             end -= 1
+#         data = swap(data, start, end)
+#         start += 1
+#         end -= 1
+#     if (end > i):    
+#         quicksort(data, i, end)
+#     if (start < j):
+#         quicksort(data, start, j)
+#     return data
+
+# def swap(data, start, end):
+#     temp = data[start]
+#     data[start] = data[end]
+#     data[end] = temp 
+#     return data    
+        
+# if __name__ == '__main__':
+#     data = [3, 1, 2, 9, 3, 4]
+#     quicksort(data, 0, len(data) - 1)
+#     print data
+    
+#     
