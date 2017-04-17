@@ -2,6 +2,7 @@
 quick sort 
 
 [JAVA 示范](http://www.vogella.com/tutorials/JavaAlgorithmsQuicksort/article.html)
+[Python动图讲解](http://www.jianshu.com/p/7d037c332a9d)
 
 --
 ### 二叉树相关	
