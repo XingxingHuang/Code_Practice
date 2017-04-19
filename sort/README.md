@@ -2,6 +2,9 @@
 quick sort 
 
 [JAVA 示范](http://www.vogella.com/tutorials/JavaAlgorithmsQuicksort/article.html)
+
+[JAVA 示范： 程序员的内功——数据结构和算法系列](http://www.cnblogs.com/jingmoxukong/p/4329079.html)
+
 [Python动图讲解](http://www.jianshu.com/p/7d037c332a9d)
 
 --
