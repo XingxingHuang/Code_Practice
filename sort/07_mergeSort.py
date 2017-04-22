@@ -33,23 +33,23 @@ def mergearray(L,first,mid,last,temp):
       L[first+x] = temp[x]
 
 ### 这是分组的函数
-def merge_sort(L,first,last,temp):
+def merge_sort(L, first, last, temp):
   if first < last:
       mid = (int)((first + last) / 2)
       #使左边序列有序
-      merge_sort(L,first,mid,temp)
+      merge_sort(L, first, mid,temp)
       #使右边序列有序
-      merge_sort(L,mid+1,last,temp)
+      merge_sort(L, mid+1, last,temp)
       #将两个有序序列合并
-      mergearray(L,first,mid,last,temp)
+      mergearray(L, first, mid, last, temp)
 
 ### 归并排序的函数
 def merge_sort_array(L):
-  #声明一个长度为len(L)的空列表
-  temp = len(L)*[None]
-  #调用归并排序
-  merge_sort(L, 0, len(L) - 1, temp)
-  return L
+    #声明一个长度为len(L)的空列表
+    temp = len(L)*[None]
+    #调用归并排序
+    merge_sort(L, 0, len(L) - 1, temp)
+    return L
      
 if __name__ == '__main__':
     nums = np.random.randint(1, 100, 10)
