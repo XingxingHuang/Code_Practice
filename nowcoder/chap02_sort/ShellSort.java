@@ -1,6 +1,4 @@
-package chap02;
-
-import java.util.*;
+package chap02_sort;
 
 public class ShellSort {
     public int[] shellSort(int[] A, int n) {

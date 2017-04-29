@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * 有一个只由0，1，2三种元素构成的整数数组，请使用交换、原地排序而不是使用计数进行排序。
@@ -9,7 +9,6 @@ package chap02;
  [0,1,1,0,2,2],6
  返回：[0,0,1,1,2,2]
  */
-import java.util.*;
 
 public class ThreeColor {
     public int[] sortThreeColor(int[] A, int n) {

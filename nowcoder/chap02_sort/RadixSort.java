@@ -1,6 +1,4 @@
-package chap02;
-
-import java.util.*;
+package chap02_sort;
 
 public class RadixSort {
     public int[] radixSort(int[] A, int n) {

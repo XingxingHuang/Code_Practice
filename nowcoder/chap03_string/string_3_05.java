@@ -1,4 +1,4 @@
-package chap03;
+package chap03_string;
 
 /**
  * Created by xing on 4/27/17.
@@ -10,7 +10,6 @@ package chap03;
  "cdab",4,"abcd",4
  返回：true
  */
-import java.util.*;
 
 public class Rotation {
     public boolean chkRotation(String A, int lena, String B, int lenb) {

@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * 请设计一个高效算法，判断数组中是否有重复值。必须保证额外空间复杂度为O(1)。
@@ -9,8 +9,6 @@ package chap02;
  [1,2,3,4,5,5,6],7
  返回：true
  */
-
-import java.util.*;
 
 public class Checker {
     public  boolean checkDuplicate(int[] a, int n) {

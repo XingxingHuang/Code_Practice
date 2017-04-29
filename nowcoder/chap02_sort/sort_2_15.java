@@ -1,6 +1,4 @@
-package chap02;
-
-import java.util.*;
+package chap02_sort;
 
 public class Merge {
     public int[] mergeAB(int[] A, int[] B, int n, int m) {

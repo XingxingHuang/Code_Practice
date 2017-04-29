@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * Created by xing on 4/25/17.

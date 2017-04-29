@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 /**
  * 已知一个几乎有序的数组，几乎有序是指，如果把数组排好顺序的话，每个元素移动的距离可以不超过k，并且k相对于数组来说比较小。请选择一个合适的排序算法针对这个数据进行排序。
 
@@ -8,8 +8,6 @@ package chap02;
  [2,1,4,3,6,5,8,7,10,9],10,2
  返回：[1,2,3,4,5,6,7,8,9,10]
  */
-
-import java.util.*;
 
 public class ScaleSort {
     public int[] sortElement(int[] A, int n, int k) {

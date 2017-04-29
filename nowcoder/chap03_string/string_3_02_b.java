@@ -1,4 +1,4 @@
-package chap03;
+package chap03_string;
 
 /**
  * Created by xing on 4/26/17.

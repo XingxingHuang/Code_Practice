@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * 现在有一个行和列都排好序的矩阵，请设计一个高效算法，快速查找矩阵中是否含有值x。
@@ -9,7 +9,6 @@ package chap02;
  [[1,2,3],[4,5,6],[7,8,9]],3,3,10
  返回：false
  */
-import java.util.*;
 
 public class Finder {
     public boolean findX(int[][] mat, int n, int m, int x) {

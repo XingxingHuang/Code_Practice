@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * 有一个整形数组A，请设计一个复杂度为O(n)的算法，算出排序后相邻两数的最大差值。
@@ -9,7 +9,6 @@ package chap02;
  [1,2,5,4,6],5
  返回：2
  */
-import java.util.*;
 
 public class Gap {
     public int maxGap(int[] A, int n) {

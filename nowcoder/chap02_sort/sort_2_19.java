@@ -1,4 +1,4 @@
-package chap02;
+package chap02_sort;
 
 /**
  * 对于一个数组，请设计一个高效算法计算需要排序的最短子数组的长度。
@@ -9,7 +9,6 @@ package chap02;
  [1,4,6,5,9,10],6
  返回：2
  */
-import java.util.*;
 
 public class Subsequence {
     public int shortestSubsequence(int[] A, int n) {
