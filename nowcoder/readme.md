@@ -6,3 +6,5 @@
 
 本课程讲解为[左程云](https://www.zhihu.com/question/19981544/answer/135901406)。有书籍[程序员代码面试指南](https://book.douban.com/subject/26638586/)，IT名企算法和数据结构题目最优解。华中科技大学（本科）、 芝加哥大学（硕士），曾就职于IBM、百度。 从2010年起专注刷题至今。《程序员代码面试指南—IT名企算法与数据结构题目最优解》 作者，已经由电子工业出版社出版发行。书籍涉及算法与数据结构编程题目近200道，并且提供最优解全部讲解和代码。
 
+注：
+这里我也收集到另外一个github账号[brianway](https://github.com/brianway/algorithms-learning/tree/master/algorithms-lecture)的java参考代码。可以参考对比不同的实现。
