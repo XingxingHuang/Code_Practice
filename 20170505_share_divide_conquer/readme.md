@@ -1,8 +1,8 @@
 ###分治算法题目汇总
-1. merge sort 	
+1. merge sort 		
 	    注意递归和非递归两种写法，查看我的[github](https://github.com/XingxingHuang/Code_Practice/tree/master/sort)中的代码。或者本目录下[code](./code)
 	
-2. quick sort	
+2. quick sort		
 		注意多重写法，查看我的[github](https://github.com/XingxingHuang/Code_Practice/tree/master/sort)中代码.	。或者本目录下[code](./code)
 		双指针，[partition模板](./code/partition.java)
 		
@@ -85,5 +85,9 @@ return findKth(nums1, lo1, nums2, lo2 + k/2, k - k/2);
 3. 刷题提不起精神怎么办
 
 加入每日一题微信群分享心得。加我微信push你。
+
+4. 五大常用算法
+
+请查看[红脸书生博客](http://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741370.html)。实际上看了算法描述也不会用，多动手理解才是王道。算法具体实现往往是多种算法思想的综合，体现熟练使用各种解题技巧的能力，是克服各种corner case的能力体现。需要实践中慢慢体会。
  
 
