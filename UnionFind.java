@@ -15,7 +15,7 @@ public class Solution {
         
         public int find(int p) {
             while (p != parent[p]) {
-                parent[p] = parent[parent[p]];    // path compression by halving
+                parent[p] = parent[parent[p]];    
                 p = parent[p];
             }
             return p;
